@@ -7,5 +7,5 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 Copy-Item "C:\repos\pltools\tailwind.config.js" .\
 Copy-Item "C:\repos\pltools\globals.css" .\src\styles\
-Write-Host "Don't forget to add "
+Write-Host "Don't forget to add your supabase api and anon key to your environment"
 npm run dev
