@@ -9,5 +9,10 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    // you can change the theme to suit your preferred defaults
+    // check the documentation here to create your own theme https://daisyui.com/theme-generator/
+    themes: ["cupcake", "luxury", "retro"],
+  },
 }
